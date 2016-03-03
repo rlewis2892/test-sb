@@ -17,9 +17,9 @@ Full Scotch Box documentation here: https://box.scotch.io/
 7. Profit!
 
 ## WordPress Installation
-1. After successful Scotch Box installation, go inside your /public directory and rename index.php to scotchbox-info.php (or something like that).
+1. After successful Scotch Box installation, go inside your /public directory and rename index.php to scotchbox-info.php.
 2. Download the WordPress ZIP archive. https://wordpress.org/
-3. Extract the ZIP, and copy/paste into your /public directory.
+3. Extract the ZIP, and copy/paste all of the files into your /public directory. (Yes, add them to git.)
 4. Run vagrant up, and access your local deployment at http://192.168.33.10/
 5. Follow the prompts to install WordPress. Use the MySQL Server configuration listed at http://192.168.33.10/scotchbox-info.php
 6. Don't forget to commit early and often! :D
